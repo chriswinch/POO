@@ -58,7 +58,7 @@ export const cardData = [
     choice: false,
     good: {
       title: `"Poverty-proofing" schools`,
-      explanation: 'Labour has promised that, as part of their pledge to "poverty-proof" schools, all primary scholl aged children will be entitled to a free healthy breakfast every morning. This is hot on the heels of the dispatches report where children spoke matter-of-factly about rationing portions and prolonged hunger. ',
+      explanation: 'Labour has promised that, as part of their pledge to "poverty-proof" schools, all primary school aged children will be entitled to a free healthy breakfast every morning. This is hot on the heels of the dispatches report where children spoke matter-of-factly about rationing portions and prolonged hunger. ',
       source: 'https://www.theguardian.com/politics/2019/dec/04/free-breakfasts-to-form-part-of-labour-plan-to-poverty-proof-schools',
       party: 'Not Tory',
       type: 'good'
