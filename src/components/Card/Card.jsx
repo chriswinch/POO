@@ -119,9 +119,9 @@ const Card = ({ type, title, explanation, party, source, updateCard, handleNext,
       <CardTitle isActive={currentCard}>{title}</CardTitle>
       {currentCard && (
         <CardMeta>
-          {/* <p>{explanation}</p> */}
-          <p>{party}</p>
-          {/* <CardSource>Source: <a href={source} target="_blank" rel="noopener noreferrer">{source}</a></CardSource> */}
+          <p>{explanation}</p>
+          {/* <p>{party}</p> */}
+          <CardSource>Source: <a href={source} target="_blank" rel="noopener noreferrer">{source}</a></CardSource>
         </CardMeta>
       )}
     </CardWrapper>
