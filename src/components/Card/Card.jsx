@@ -103,7 +103,8 @@ const CardMeta = Styled.div`
 `;
 
 const CardSource = Styled.p`
-  padding-top: 40px;
+  padding-top: 20px;
+  margin: 0;
   font-size: 12px;
 `;
 

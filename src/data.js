@@ -82,7 +82,7 @@ export const cardData = [
       type: 'good'
     },
     bad: {
-      title: "Withholding broadband from those who can't afford it",
+      title: "Not free broadband",
       explanation: `The Conservatives have shaky promises of 1 gigabit, high-speed internet nationwide (a long-held, never delivered promise from Conservatives) that mean that, in contrast to the Labour pledge, they'll still be withholding internet access from those that can't afford it. Did you know that you need an internet connection to apply for most benefits and jobs? It's almost like they don't give a shit about poor people.`,
       source: 'https://www.ispreview.co.uk/index.php/2019/11/2019-conservative-manifesto-reiterates-5bn-gigabit-broadband-plan.html',
       party: 'Tory',
