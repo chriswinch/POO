@@ -84,7 +84,7 @@ const CardSelection = () => {
       {card1 && <Card {...card1} updateCard={handleUpdateCard} handleNext={handleNext} currentCard={isCurrentCard(card1)} />}
       <Nav currentCard={currentCard} handleNext={handleNext} setShowAbout={setShowAbout} />
       {card2 && <Card {...card2} updateCard={handleUpdateCard} handleNext={handleNext} currentCard={isCurrentCard(card2)} />}
-      <ProgressBar />
+      {/* <ProgressBar /> */}
     </Wrapper>
   );
 };
