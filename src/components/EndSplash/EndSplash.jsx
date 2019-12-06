@@ -40,8 +40,8 @@ const ButtonWrapper = Styled.div`
 `;
 
 const EndSplash = () => {
-  const { rawScore, score, message } = useScore();
-  const shareText = `${encodeURI(rawScore + '%')} @poovotes. ${message} Find out how you'll vote in %23GE2019 at https://poo.vote&hashtags=GetTheToriesOut`;
+  const { rawScore, score, message, share } = useScore();
+  const shareText = `${encodeURI(rawScore + '%')} @poovotes. ${share} Find out how you'll vote in %23GE2019 at https://poo.vote&hashtags=GetTheToriesOut`;
   return (
     <Splash end>
       <SplashContent>
