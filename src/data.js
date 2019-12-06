@@ -106,5 +106,23 @@ export const cardData = [
       party: 'Tory',
       type: 'bad'
     }
-  }
+  },
+  // {
+  //   id: 6,
+  //   choice: false,
+  //   good: {
+  //     title: "Scrap nuclear deterrents",
+  //     explanation: `It doesn't matter who presses the button first if everyone dies regardless. The only winning move in a game of Mutually Assured Destruction is to not play in the first place. The Green Party and The SNP are the only parties to wholly support nuclear disarmament.`,
+  //     source: 'https://www.snp.org/policies/pb-do-the-snp-support-trident-renewal/',
+  //     party: 'Not Tory',
+  //     type: 'good'
+  //   },
+  //   bad: {
+  //     title: "Kill millions if US says to",
+  //     explanation: `It doesn't matter who presses the button first if everyone dies regardless. The only winning move in a game of Mutually Assured Destruction is to not play in the first place. The Green Party and The SNP are the only parties to wholly support nuclear disarmament.`,
+  //     source: 'https://www.snp.org/policies/pb-do-the-snp-support-trident-renewal/',
+  //     party: 'Tory',
+  //     type: 'bad'
+  //   }
+  // }
 ]

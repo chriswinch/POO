@@ -124,7 +124,7 @@ const Card = ({ type, title, explanation, party, source, updateCard, handleNext,
         <CardMeta>
           <p>{explanation}</p>
           {/* <p>{party}</p> */}
-          <CardSource>Source: <a href={source} target="_blank" rel="noopener noreferrer">{source}</a></CardSource>
+          <CardSource>Source: <a href={source} onClick={(e) => e.stopPropagation()} target="_blank" rel="noopener noreferrer">{source}</a></CardSource>
         </CardMeta>
       )}
     </CardWrapper>
