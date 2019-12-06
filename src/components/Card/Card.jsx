@@ -29,7 +29,8 @@ const CardWrapper = Styled.button`
     padding .2s ease,
     max-width .6s ease;
   max-height: ${props => isActive(props, '1000px', '1000px', '0')};
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
   margin: 0;
   text-align: center;
   
@@ -76,7 +77,7 @@ const CardEmoji = Styled.div`
 
 const CardMeta = Styled.div`
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   max-width: 600px;
   margin: 0 auto;
